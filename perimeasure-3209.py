@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Written by Robin Provilij in partial fulfillment of Master thesis project HTI (0PP06)
 
 from pynput.keyboard import Listener as KeyboardListener
 from win32gui import GetWindowText, GetForegroundWindow
