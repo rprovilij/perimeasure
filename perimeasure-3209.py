@@ -75,7 +75,7 @@ def get_id():  # Extracts participant ID from software title (e.g., NAME-3209)
 
 
 def notify(title, msg):  # Windows 10 'toast' notification
-    ToastNotifier().show_toast(title, msg, icon_path='graph.ico', duration=3)
+    ToastNotifier().show_toast(title, msg, icon_path='icon.ico', duration=3)
 
 
 class Timer:  # keyboard metrics and conference-app detection embedded in timer class
